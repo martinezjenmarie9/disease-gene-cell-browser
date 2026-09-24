@@ -1,4 +1,4 @@
-## From Genome to Cell: Exploring Disease Gene Using the UCSC Cell Browser
+# From Genome to Cell: Exploring Disease Gene Using the UCSC Cell Browser
 **Name:** Jen Marie A. Martinez
 **Assigned Gene:** PSEN1  
 **Associated Disease:** Early-Onset Alzheimer's Disease (EOAD)  
