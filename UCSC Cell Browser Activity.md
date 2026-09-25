@@ -13,9 +13,6 @@
 
 **UCSC Cell Browser Dataset URL:**  [https://cells.ucsc.edu/?ds=ad-aging-brain](https://cells.ucsc.edu/?ds=ad-aging-brain+ad-atac)]
 
-### Required proof - Screenshot 1
-The prefrontal cortex is one of the key brain regions heavily impacted by neurodegeneration in Alzheimer's disease. Focusing on this tissue allows me to examine how the PSEN1 gene is expressed across critical cell types like neurons and supporting cells to understand their role in the disease.
-
 ## Understanding the Cell Map
 
 **a. What type of visualization is being shown?**  A two-dimensional scatter plot layout (UMAP/t-SNE) used to visualize high-dimensional single-cell genomic data.
