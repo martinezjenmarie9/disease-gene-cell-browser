@@ -2,7 +2,7 @@
 **Name:** Jen Marie A. Martinez **Assigned Gene:** PSEN1  **Associated Disease:** Early-Onset Alzheimer's Disease (EOAD)  
 **Organism:** Human  **Selected Organ/Tissue:** Brain 
 
-## Part B. UCSC Cell Browser Dataset
+## UCSC Cell Browser Dataset
 **Selected Dataset:** Aging Brain and Alzheimer's Disease
 
 **Reason for Selection:**  I chose the Aging Brain and Alzheimer’s Disease dataset because it provides single-cell RNA sequencing data specifically focused on human brain tissues, specifically focusing on human prefrontal cortex tissue affected by Alzheimer’s disease. Since my assigned gene is PSEN1, which is heavily linked to early-onset Alzheimer's, this dataset is a great fit. It allows me to explore how PSEN1 is expressed across different types of brain cells,such as neurons, giving me a clearer picture of its potential role and cellular involvement in the disease pathology.
@@ -11,14 +11,14 @@
 
 **Publication/Study:**  Epigenomic dissection of Alzheimer's disease pinpoints causal variants and reveals epigenome erosion (Manolis Kellis, Li-Huei Tsai Lab, MIT)
 
-**UCSC Cell Browser Dataset URL:**  [https://ad-aging-brain.cells.ucsc.edu](https://ad-aging-brain.cells.ucsc.edu]
+**UCSC Cell Browser Dataset URL:**  [https://cells.ucsc.edu/?ds=ad-aging-brain](https://cells.ucsc.edu/?ds=ad-aging-brain+ad-atac)]
 
 ### Required proof - Screenshot 1
 The prefrontal cortex is one of the key brain regions heavily impacted by neurodegeneration in Alzheimer's disease. Focusing on this tissue allows me to examine how the PSEN1 gene is expressed across critical cell types like neurons and supporting cells to understand their role in the disease.
 
-![Dataset Proof](images/your-screenshot-filename.png)]
+![Dataset Proof](https://github.com/martinezjenmarie9/disease-gene-cell-browser/blob/5731ae3783de4f08d4800a6c12667e5e46806f8c/screenshot/01_selected_dataset.png)]
 
-## Part C: Understanding the Cell Map
+## Understanding the Cell Map
 
 **a. What type of visualization is being shown?**  A two-dimensional scatter plot layout (UMAP/t-SNE) used to visualize high-dimensional single-cell genomic data.
 
@@ -31,7 +31,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
   * Oligodendrocytes (Oli)
   * Inhibitory neurons (Inh)
 
-## Part D: Search for Your Assigned Gene
+##  Search for Your Assigned Gene
 
 **a. Assigned gene symbol:** PSEN1
 
@@ -44,9 +44,9 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 **e. Which cluster(s) appear to contain little or no detectable expression?** Vascular cells (Vas) and certain sub-regions showing sparser grey/undetected levels.
 
 ### Required proof - Screenshot 2
-![PSEN1 Gene Expression Proof](images/image_752bfe.jpg)
+![PSEN1 Gene Expression Proof]()
 
-## Part E: Identify the Cell Types Expressing Your Gene
+##  Identify the Cell Types Expressing Your Gene
 
 **a. Cell type/cluster with the strongest visible expression:**  The cell type cluster showing the strongest and most dense visible *PSEN1* expression is the Oligodendrocytes (Oli) cluster.
 
@@ -61,7 +61,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 ### Required proof - Screenshot 3
 ![PSEN1 Gene Expression and Cell Types Proof](images/image_760e36.jpg)
 
-## Part F: Select Cells and Examine an Expression Plot
+##  Select Cells and Examine an Expression Plot
 
 **a. Which cells/cluster did you select?**  The dot plot compares all cell types simultaneously, highlighting Oligodendrocytes (Oli) as the primary population of interest.
 
@@ -72,7 +72,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
  ### Required proof - Screenshot 4
 ![Dot Plot Expression Comparison Proof](images/image_762f61.png)
 
-### Part G: Explore Marker Genes
+###  Explore Marker Genes
 
 **a. Cluster/cell type examined:** Oligodendrocytes (Oli)
 
@@ -87,7 +87,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
  ### Required proof - Screenshot 5
 ![Marker Gene Comparison Proof](images/image_8105a1.jpg)
 
-### Part H: Compare Your Assigned Gene With One Marker Gene
+###  Compare Your Assigned Gene With One Marker Gene
 
 **a. Assigned disease gene:** PSEN1
   
@@ -102,7 +102,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 ### Required proof - Screenshot 6
 ![Multi-Gene Comparison Dot Plot Proof](images/image_8188ce.png)
 
-## Part I: Connect the Cell Browser Result to Your Previous Genome Activity
+## Connect the Cell Browser Result to Your Previous Genome Activity
 
 **1. On which chromosome is your assigned gene located?**  PSEN1 is located on Chromosome 14 (chr14).
 
@@ -114,7 +114,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **5. Can this single Cell Browser dataset prove that the gene causes the disease? Explain why or why not.**  A single single-nucleus RNA-seq dataset cannot prove causation on its own. The Cell Browser provides observational, correlative evidence showing transcriptional expression levels across cell types, but it does not test functional impact. Proving definitive disease causation requires rigorous experimental validation, such as functional genetic assays, mechanistic studies, or in vivo disease models.
 
-## PART J. Short Reflection
+##  Short Reflection
 
 **1. What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?**  While the regular Genome Browser gave me a close-up look at PSEN1's DNA sequence and physical layout on chromosome 14, it couldn't tell me where that gene is actually active in tissue. The Cell Browser really filled in that blank by letting me see how the gene's expression lights up across different cell types in the brain, like neurons versus oligodendrocytes. It completely bridged the gap between raw genomic data and real biological context in specific cells.
 
