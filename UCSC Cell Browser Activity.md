@@ -16,8 +16,6 @@
 ### Required proof - Screenshot 1
 The prefrontal cortex is one of the key brain regions heavily impacted by neurodegeneration in Alzheimer's disease. Focusing on this tissue allows me to examine how the PSEN1 gene is expressed across critical cell types like neurons and supporting cells to understand their role in the disease.
 
-![Dataset Proof](https://github.com/martinezjenmarie9/disease-gene-cell-browser/blob/5731ae3783de4f08d4800a6c12667e5e46806f8c/screenshot/01_selected_dataset.png)]
-
 ## Understanding the Cell Map
 
 **a. What type of visualization is being shown?**  A two-dimensional scatter plot layout (UMAP/t-SNE) used to visualize high-dimensional single-cell genomic data.
@@ -31,7 +29,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
   * Oligodendrocytes (Oli)
   * Inhibitory neurons (Inh)
 
-##  Search for Your Assigned Gene
+##  Assigned Gene Expression
 
 **a. Assigned gene symbol:** PSEN1
 
@@ -43,10 +41,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **e. Which cluster(s) appear to contain little or no detectable expression?** Vascular cells (Vas) and certain sub-regions showing sparser grey/undetected levels.
 
-### Required proof - Screenshot 2
-![PSEN1 Gene Expression Proof]()
-
-##  Identify the Cell Types Expressing Your Gene
+## Cell Types and Clusters
 
 **a. Cell type/cluster with the strongest visible expression:**  The cell type cluster showing the strongest and most dense visible *PSEN1* expression is the Oligodendrocytes (Oli) cluster.
 
@@ -58,10 +53,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **e. Biological explanation:**  Based on this selected dataset, the widespread presence of PSEN1 across various neural and glial cell types suggests that it plays a fundamental housekeeping or regulatory role in cellular maintenance. Because PSEN1 encodes an essential component of the gamma-secretase complex, its expression is expected across diverse brain cell populations to support critical transmembrane cleavage pathways.Please note that this is an interpretation based on the selected dataset.  
 
-### Required proof - Screenshot 3
-![PSEN1 Gene Expression and Cell Types Proof](images/image_760e36.jpg)
-
-##  Select Cells and Examine an Expression Plot
+## Expression Plot
 
 **a. Which cells/cluster did you select?**  The dot plot compares all cell types simultaneously, highlighting Oligodendrocytes (Oli) as the primary population of interest.
 
@@ -69,10 +61,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **c. What does the expression plot add that was not obvious from the UMAP/t-SNE map?**  The dot plot adds a clear quantitative breakdown by simultaneously displaying both the average expression level (via color intensity) and the precise fraction of cells expressing the gene (via dot size) across every cluster, which is harder to gauge precisely from scatter density alone.
 
- ### Required proof - Screenshot 4
-![Dot Plot Expression Comparison Proof](images/image_762f61.png)
-
-###  Explore Marker Genes
+### Marker Genes
 
 **a. Cluster/cell type examined:** Oligodendrocytes (Oli)
 
@@ -84,10 +73,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **e. Does your assigned gene behave like a cell-type marker in this dataset? Explain briefly:** PSEN1 does not behave like a cell-type-specific marker. Unlike traditional markers that are tightly restricted to single lineages, PSEN1 displays a broad, generalized expression pattern across multiple cell populations in the prefrontal cortex.
 
- ### Required proof - Screenshot 5
-![Marker Gene Comparison Proof](images/image_8105a1.jpg)
-
-###  Compare Your Assigned Gene With One Marker Gene
+###  Disease Gene vs. Marker Gene
 
 **a. Assigned disease gene:** PSEN1
   
@@ -99,10 +85,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **e. What does this comparison teach you about the difference between a disease-associated gene and a cell-type marker gene?** It demonstrates that disease-associated genes (like PSEN1) can have generalized or widespread housekeeping functions across many cell types rather than uniquely defining a single lineage, whereas cell-type markers (like OLIG1) are specialized transcripts utilized to identify specific cellular identities.
 
-### Required proof - Screenshot 6
-![Multi-Gene Comparison Dot Plot Proof](images/image_8188ce.png)
-
-## Connect the Cell Browser Result to Your Previous Genome Activity
+## Connection to Genome Browser and ClinVar
 
 **1. On which chromosome is your assigned gene located?**  PSEN1 is located on Chromosome 14 (chr14).
 
@@ -126,3 +109,7 @@ The prefrontal cortex is one of the key brain regions heavily impacted by neurod
 
 **5. What was the most interesting observation you made about your assigned gene?**  The coolest thing I noticed was how PSEN1 didn't act like a neat, exclusive cell-type marker, but instead showed up across a bunch of different brain cells like neurons and oligodendrocytes. It really highlighted how a gene can play a vital, widespread housekeeping role across the entire brain tissue rather than just defining one single type of cell. Seeing that contrast completely changed how I think about disease-associated genes versus standard marker genes.
 
+## Links 
+(https://cells.ucsc.edu/?ds=ad-aging-brain)
+
+(https://cells.ucsc.edu/?ds=ad-aging-brain+ad-atac)]
